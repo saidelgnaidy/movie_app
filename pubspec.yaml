@@ -1,0 +1,35 @@
+name: movieapp
+description: A new Flutter application.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.12.0 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 
+  simple_animations: 
+  animations: 
+  video_player:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+  fonts:
+   - family: Ar
+     fonts:
+       - asset: fonts/ar.ttf
+         weight: 700
+
